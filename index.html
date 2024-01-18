@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Instagram</title>
+    <meta name="description" content="Simplified and responsive web version of Instagram homepage utilizing CSS and HTML">
+    <meta name="keywords" content="web design, web development, css, html, facebook, instagram" />
+    <meta name="author" content="Gabriel Neves">
+
+    <link rel="icon" type="image/png" href="https://www.google.com/s2/u/0/favicons?domain=instagram.com">
+
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">  
+    <link rel="stylesheet" href="more.css">  
+
+    
+
+</head>
+<body>
+
+        <header class="desktop">
+            <div class="top-container">
+                <div class="top-logo">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <div class="spacer vertical"></div>
+                    <img src="assets/img/logo.png" alt="logotipo-instagram">
+                </div>
+                <input type="text" placeholder="Search">
+                <div class="top-icons">
+                    <ion-icon name="paper-plane-outline"></ion-icon>
+                    <ion-icon name="compass-outline"></ion-icon>
+                    <ion-icon name="heart-outline"></ion-icon>
+                    <ion-icon name="person-outline"></ion-icon>
+                </div>
+            </div>
+        </header>
+
+        <header class="mobile">
+            <ion-icon name="logo-instagram"></ion-icon>
+            <img src="assets/img/logo.png" alt="logotipo-instagram">
+            <ion-icon name="paper-plane-outline"></ion-icon>
+        </header>
+    
+        <main>
+    
+            <div class="main-feed">
+    
+                <div class="stories">
+                    <div class="story">
+                        <div>
+                            <img src="assets/img/code.jpg" alt="code">
+                        </div>
+                        <span>guru</span>
+                    </div>
+                    <div class="story">
+                        <div>
+                            <img src="assets/img/anim.jpeg" alt="">
+                        </div>
+                        <span>@anim</span>
+                    </div>
+                    <div class="story">
+                        <div>
+                            <img src="assets/img/anim2.jpeg" alt="">
+                        </div>
+                        <span>hank</span>
+                    </div>
+                    <div class="story">
+                        <div>
+                            <img src="assets/img/anim3.png" alt="">
+                        </div>
+                        <span>entertain...</span>
+                    </div>
+                    <div class="story">
+                        <div>
+                            <img src="assets/img/anim4.jpg" alt="">
+                        </div>
+                        <span>producer...</span>
+                    </div>
+                    <div class="story">
+                        <div>
+                            <img src="assets/img/anim5.jpg" alt="">
+                        </div>
+                        <span>setup.guru</span>
+                    </div>
+                    <div class="story">
+                        <div>
+                            <img src="assets/img/anim6.jpg" alt="">
+                        </div>
+                        <span>code</span>
+                    </div>
+                    <div class="story">
+                        <div>
+                            <img src="assets/img/anim7.jpg" alt="">
+                        </div>
+                        <span>alpha...</span>
+                    </div>
+                    <ion-icon name="chevron-forward-circle-sharp" id="seta"></ion-icon>
+                </div>
+
+                <div class="posts">
+                    <div class="post">
+                        <div class="post-top">
+                            <div>
+                                <img src="assets/img/anim8.jpg" alt="www">
+                                alpha
+                            </div>
+                            <ion-icon name="ellipsis-horizontal">
+                            </ion-icon>
+                        </div>
+                        <img src="assets/img/anim.jpeg" class="imagem" alt="alpha_code">
+                        <div class="post-interactions">
+                            <div>
+                                <ion-icon name="heart-outline"></ion-icon>
+                                <ion-icon name="chatbubble-outline"></ion-icon>
+                                <ion-icon name="paper-plane-outline"></ion-icon>
+                            </div>
+                            <ion-icon name="bookmark-outline"></ion-icon>
+                        </div>
+                        <div class="likes">
+                            <img src="assets/img/code.jpg" alt="code"> 
+                            <span>
+                                alpha <strong>298.9 k</strong>  <strong>likes</strong>
+                            </span>
+                        </div>
+                        <div class="post-description">
+                            <span><strong>hank</strong> anime community well represented</span>
+                        </div>
+                        <div class="comments">
+                            <h1>Veja todos os 7.747 comentários</h1>
+                            <p><strong>cats_dogs</strong> awwww😍😍😍</p>
+                            <p><strong>mwikali</strong> 🐱😻</p>
+                            <h2>read more</h2>
+                        </div>
+                        <div class="comment-input">
+                            <ion-icon name="happy-outline"></ion-icon>
+                            <input type="text" placeholder="Add a comment...">
+                            <button>Post</button>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post-top">
+                            <div>
+                                <img src="assets/img/code2.jpg" alt="alternative">
+                                hank
+                            </div>
+                            <ion-icon name="ellipsis-horizontal"></ion-icon>
+                        </div>
+                        <img src="assets/img/anim2.jpeg" class="imagem" alt="alternative">
+                        <div class="post-interactions">
+                            <div>
+                                <ion-icon name="heart-outline"></ion-icon>
+                                <ion-icon name="chatbubble-outline"></ion-icon>
+                                <ion-icon name="paper-plane-outline"></ion-icon>
+                            </div>
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                        </div>
+                        <div class="likes">
+                            <img src="assets/img/anim2.jpeg" alt=" "> 
+                            <span>
+                                hank <strong>likes</strong> e <strong>272.1 k</strong>
+                            </span>
+                        </div>
+                        <div class="post-description">
+                            <span><strong>coders.community</strong> the best character🥱😴</span>
+                        </div>
+                        <div class="comments">
+                            <h1>View all 8 922 comments</h1>
+                            <p><strong>cena_john</strong> must watch😪</p>
+                            <p><strong>alpha_ke</strong> the GOAT 🔥</p>
+                            <h2>read more</h2>
+                        </div>
+                        <div class="comment-input">
+                            <ion-icon name="happy-outline"></ion-icon>
+                            <input type="text" placeholder="Add a comment...">
+                            <button>Post</button>
+                        </div>
+                    </div>
+
+                    <div class="post">
+                        <div class="post-top">
+                            <div>
+                                <img src="assets/img/messi.jpg" alt="alternative">
+                                messi_lio
+                            </div>
+                            <ion-icon name="ellipsis-horizontal"></ion-icon>
+                        </div>
+                        <img src="assets/img/messi.jpg" class="imagem" alt="messi">
+                        <div class="post-interactions">
+                            <div>
+                                <ion-icon name="heart-outline"></ion-icon>
+                                <ion-icon name="chatbubble-outline"></ion-icon>
+                                <ion-icon name="paper-plane-outline"></ion-icon>
+                            </div>
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                        </div>
+                        <div class="likes">
+                            <img src="assets/img/anim2.jpeg" alt=" "> 
+                            <span>
+                                messi <strong>856.9 k</strong>  <strong>likes</strong>
+                            </span>
+                        </div>
+                        <div class="post-description">
+                            <span><strong>fifa.community</strong> the best character🥱😴</span>
+                        </div>
+                        <div class="comments">
+                            <h1>View all 883 922 comments</h1>
+                            <p><strong>cena_john</strong> must watch😪</p>
+                            <!-- <p><strong>alpha_ke</strong> leo to the world 🔥</p> -->
+                            <p><strong>hank</strong> the GOAT 🔥</p>
+                            <h2>read more</h2>
+                        </div>
+                        <div class="comment-input">
+                            <ion-icon name="happy-outline"></ion-icon>
+                            <input type="text" placeholder="Add a comment...">
+                            <button>Post</button>
+                        </div>
+                    </div>
+
+                    <div class="post">
+                        <div class="post-top">
+                            <div>
+                                <img src="assets/img/code2.jpg" alt="alternative">
+                                michael_Gta
+                            </div>
+                            <ion-icon name="ellipsis-horizontal"></ion-icon>
+                        </div>
+                        <img src="assets/img/anim7.jpg" class="imagem" alt="alternative">
+                        <div class="post-interactions">
+                            <div>
+                                <ion-icon name="heart-outline"></ion-icon>
+                                <ion-icon name="chatbubble-outline"></ion-icon>
+                                <ion-icon name="paper-plane-outline"></ion-icon>
+                            </div>
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                        </div>
+                        <div class="likes">
+                            <img src="assets/img/anim2.jpeg" alt=" "> 
+                            <span>
+                                hank <strong>272.1 k</strong>  <strong>likes</strong>
+                            </span>
+                        </div>
+                        <div class="post-description">
+                            <span><strong>gemer_zee</strong> when is gta vi coming?</span>
+                        </div>
+                        <div class="comments">
+                            <h1>View all 844 901 comments</h1>
+                            <p><strong>cena_john</strong> will be there😪</p>
+                            <p><strong>alpha_ke</strong> trevor 🔥</p>
+                            <h2>read more</h2>
+                        </div>
+                        <div class="comment-input">
+                            <ion-icon name="happy-outline"></ion-icon>
+                            <input type="text" placeholder="Add a comment...">
+                            <button>Post</button>
+                        </div>
+                    </div>
+
+                    <div class="post">
+                        <div class="post-top">
+                            <div>
+                                <img src="assets/img/code2.jpg" alt="alternative">
+                                hacker1
+                            </div>
+                            <ion-icon name="ellipsis-horizontal"></ion-icon>
+                        </div>
+                        <img src="assets/img/code4.jpg" class="imagem" alt="alternative">
+                        <div class="post-interactions">
+                            <div>
+                                <ion-icon name="heart-outline"></ion-icon>
+                                <ion-icon name="chatbubble-outline"></ion-icon>
+                                <ion-icon name="paper-plane-outline"></ion-icon>
+                            </div>
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                        </div>
+                        <div class="likes">
+                            <img src="assets/img/code4.jpg" alt=" "> 
+                            <span>
+                                hacker1 <strong>905.3 k</strong>  <strong>likes</strong>
+                            </span>
+                        </div>
+                        <div class="post-description">
+                            <span><strong>crazy.setups</strong> coding for life🥱</span>
+                        </div>
+                        <div class="comments">
+                            <h1>View all 9 924 comments</h1>
+                            <p><strong>hank</strong> the future is black 💻⚖</p>
+                            <p><strong>anonimous</strong> do you have telegram </p>
+                            <h2>read more</h2>
+                        </div>
+                        <div class="comment-input">
+                            <ion-icon name="happy-outline"></ion-icon>
+                            <input type="text" placeholder="Add a comment...">
+                            <button>Post</button>
+                        </div>
+                    </div>
+
+                    <div class="post">
+                        <div class="post-top">
+                            <div>
+                                <img src="assets/img/kifee.jpg" alt="alternative">
+                                kibe_andy
+                            </div>
+                            <ion-icon name="ellipsis-horizontal"></ion-icon>
+                        </div>
+                        <img src="assets/img/kifee.jpg" class="imagem" alt="alternative">
+                        <div class="post-interactions">
+                            <div>
+                                <ion-icon name="heart-outline"></ion-icon>
+                                <ion-icon name="chatbubble-outline"></ion-icon>
+                                <ion-icon name="paper-plane-outline"></ion-icon>
+                            </div>
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                        </div>
+                        <div class="likes">
+                            <img src="assets/img/kifee.jpg" alt=" "> 
+                            <span>
+                                kibe_andy <strong>29.8 k</strong>  <strong>likes</strong>
+                            </span>
+                        </div>
+                        <div class="post-description">
+                            <span><strong>nganuthia</strong> where are the whips😂</span>
+                        </div>
+                        <div class="comments">
+                            <h1>View all 7 923 comments</h1>
+                            <p><strong>mosee_ke</strong> kifee 😂😂</p>
+                            <p><strong>kafukuswi_ke</strong> msee anatesa tu hajali </p>
+                            <h2>read more</h2>
+                        </div>
+                        <div class="comment-input">
+                            <ion-icon name="happy-outline"></ion-icon>
+                            <input type="text" placeholder="Add a comment...">
+                            <button>Post</button>
+                        </div>
+                    </div>
+
+                    <div class="post">
+                        <div class="post-top">
+                            <div>
+                                <img src="assets/img/btf.jpg" alt="alternative">
+                                mercy_mutuma
+                            </div>
+                            <ion-icon name="ellipsis-horizontal"></ion-icon>
+                        </div>
+                        <img src="assets/img/btf.jpg" class="imagem" alt="alternative">
+                        <div class="post-interactions">
+                            <div>
+                                <ion-icon name="heart-outline"></ion-icon>
+                                <ion-icon name="chatbubble-outline"></ion-icon>
+                                <ion-icon name="paper-plane-outline"></ion-icon>
+                            </div>
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                        </div>
+                        <div class="likes">
+                            <img src="assets/img/btf.jpg" alt=" "> 
+                            <span>
+                                mercy_mutuma <strong>97.8 k</strong>  <strong>likes</strong>
+                            </span>
+                        </div>
+                        <div class="post-description">
+                            <span><strong>wanjiraw</strong> babes ❤😂</span>
+                        </div>
+                        <div class="comments">
+                            <h1>View all 7 923 comments</h1>
+                            <!-- <p><strong>kamosee</strong> reply my dm 😂</p> -->
+                            <p><strong>kenyan_portrait</strong> I love you 🎉 </p>
+                            <p><strong>maggie_mutuma</strong> mailav ❤ </p>
+                            <h2>read more</h2>
+                        </div>
+                        <div class="comment-input">
+                            <ion-icon name="happy-outline"></ion-icon>
+                            <input type="text" placeholder="Add a comment...">
+                            <button>Post</button>
+                        </div>
+                    </div>
+
+                    <div class="post">
+                        <div class="post-top">
+                            <div>
+                                <img src="assets/img/adorableanimals.png" alt="urso">
+                                adorableanimals
+                            </div>
+                            <ion-icon name="ellipsis-horizontal"></ion-icon>
+                        </div>
+                        <video class="video" alt="urso" autoplay muted loop>
+                            <source src="assets/videos/cat.mp4" type="video/mp4">
+                            <!-- <source src="assets/videos/video.ogg" type="video/ogg"> -->
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="post-interactions">
+                            <div>
+                                <ion-icon name="heart-outline"></ion-icon>
+                                <ion-icon name="chatbubble-outline"></ion-icon>
+                                <ion-icon name="paper-plane-outline"></ion-icon>
+                            </div>
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                        </div>
+                        <div class="likes">
+                            <img src="assets/img/barked.png" alt="barked"> 
+                            <span>
+                                Curtido por <strong>barked</strong> e <strong>77.852 pessoas</strong>
+                            </span>
+                        </div>
+                        <div class="post-description">
+                            <span><strong>adorableanimals</strong> brinca com o urso não🐻</span>
+                        </div>
+                        <div class="comments">
+                            <h1>Veja todos os 711 comentários</h1>
+                            <p><strong>nathanwpylestrangeplanet</strong> cabuloso!🧸</p>
+                            <p><strong>razoesparaacreditar</strong> i like trains🚆</p>
+                            <h2>HÁ 5 DIAS</h2>
+                        </div>
+                        <div class="comment-input">
+                            <ion-icon name="happy-outline"></ion-icon>
+                            <input type="text" placeholder="Add a comment...">
+                            <button>Publicar</button>
+                        </div>
+                    </div>
+
+                    <div class="post">
+                        <div class="post-top">
+                            <div>
+                                <img src="assets/img/adorableanimals.png" alt="urso">
+                                adorableanimals
+                            </div>
+                            <ion-icon name="ellipsis-horizontal"></ion-icon>
+                        </div>
+                        <video class="video" alt="urso" autoplay muted loop>
+                            <source src="assets/videos/dog1.mp4" type="video/mp4">
+                            <!-- <source src="assets/videos/video.ogg" type="video/ogg"> -->
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="post-interactions">
+                            <div>
+                                <ion-icon name="heart-outline"></ion-icon>
+                                <ion-icon name="chatbubble-outline"></ion-icon>
+                                <ion-icon name="paper-plane-outline"></ion-icon>
+                            </div>
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                        </div>
+                        <div class="likes">
+                            <img src="assets/img/barked.png" alt="barked"> 
+                            <span>
+                                Curtido por <strong>barked</strong> e <strong>77.852 pessoas</strong>
+                            </span>
+                        </div>
+                        <div class="post-description">
+                            <span><strong>adorableanimals</strong> brinca com o urso não🐻</span>
+                        </div>
+                        <div class="comments">
+                            <h1>Veja todos os 711 comentários</h1>
+                            <p><strong>nathanwpylestrangeplanet</strong> cabuloso!🧸</p>
+                            <p><strong>razoesparaacreditar</strong> i like trains🚆</p>
+                            <h2>HÁ 5 DIAS</h2>
+                        </div>
+                        <div class="comment-input">
+                            <ion-icon name="happy-outline"></ion-icon>
+                            <input type="text" placeholder="Add a comment...">
+                            <button>Publicar</button>
+                        </div>
+                    </div>
+
+                    <div class="post">
+                        <div class="post-top">
+                            <div>
+                                <img src="assets/img/adorableanimals.png" alt="urso">
+                                adorableanimals
+                            </div>
+                            <ion-icon name="ellipsis-horizontal"></ion-icon>
+                        </div>
+                        <video class="video" alt="urso" autoplay muted loop>
+                            <source src="assets/videos/dog2.mp4" type="video/mp4">
+                            <!-- <source src="assets/videos/video.ogg" type="video/ogg"> -->
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="post-interactions">
+                            <div>
+                                <ion-icon name="heart-outline"></ion-icon>
+                                <ion-icon name="chatbubble-outline"></ion-icon>
+                                <ion-icon name="paper-plane-outline"></ion-icon>
+                            </div>
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                        </div>
+                        <div class="likes">
+                            <img src="assets/img/barked.png" alt="barked"> 
+                            <span>
+                                Curtido por <strong>barked</strong> e <strong>77.852 pessoas</strong>
+                            </span>
+                        </div>
+                        <div class="post-description">
+                            <span><strong>adorableanimals</strong> brinca com o urso não🐻</span>
+                        </div>
+                        <div class="comments">
+                            <h1>Veja todos os 711 comentários</h1>
+                            <p><strong>nathanwpylestrangeplanet</strong> cabuloso!🧸</p>
+                            <p><strong>razoesparaacreditar</strong> i like trains🚆</p>
+                            <h2>HÁ 5 DIAS</h2>
+                        </div>
+                        <div class="comment-input">
+                            <ion-icon name="happy-outline"></ion-icon>
+                            <input type="text" placeholder="Add a comment...">
+                            <button>Publicar</button>
+                        </div>
+                    </div>
+
+                    <div class="post">
+                        <div class="post-top">
+                            <div>
+                                <img src="assets/img/anim6.jpg" alt="alternative">
+                                linux.facts
+                            </div>
+                            <ion-icon name="ellipsis-horizontal"></ion-icon>
+                        </div>
+                        <img src="assets/img/code.jpg" class="imagem" alt="alternative">
+                        <div class="post-interactions">
+                            <div>
+                                <ion-icon name="heart-outline"></ion-icon>
+                                <ion-icon name="chatbubble-outline"></ion-icon>
+                                <ion-icon name="paper-plane-outline"></ion-icon>
+                            </div>
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                        </div>
+                        <div class="likes">
+                            <img src="assets/img/anim6.jpg" alt=" "> 
+                            <span>
+                                liked by <strong>alpha_code</strong> and <strong>16.9 k others</strong>
+                            </span>
+                        </div>
+                        <div class="post-description">
+                            <span><strong>flutter.io</strong> click on link to learn flutter</span>
+                        </div>
+                        <div class="comments">
+                            <h1>View all 6 923 comments</h1>
+                            <p><strong>dev_saja</strong> always top 😂😂</p>
+                            <p><strong>trendy.tech</strong> its revolution time 👀🖥 </p>
+                            <h2>read more</h2>
+                        </div>
+                        <div class="comment-input">
+                            <ion-icon name="happy-outline"></ion-icon>
+                            <input type="text" placeholder="Add a comment...">
+                            <button>Post</button>
+                        </div>
+                    </div>
+
+                </div>
+    
+            </div>
+
+            <aside>
+                <div class="sidebar">
+                    <div class="profile">
+                        <img src="assets/img/anim.jpeg" alt="profile">
+                        <div>
+                           <h1>hank_dev</h1>
+                           <h2>Harryson.</h2> 
+                        </div>
+                    </div>
+                    <div class="suggestions">
+                            <p>Suggested for you<strong>See all</strong></p>
+                        <ul>
+                            <li>
+                                <img src="assets/img/anim8.jpg" alt="more">
+                                <div>
+                                    <h1>nairobi.gossip</h1>
+                                    <h2 class="subtitle">Follows you</h2>
+                                </div>
+                                <span>Follow</span>
+                            </li>
+                            <li>
+                                <img src="assets/img/code4.jpg" alt="code">
+                                <div>
+                                    <h1>chris.kirubi</h1>
+                                    <h2 class="subtitle">Follows you</h2>
+                                </div>
+                                <span>Follow</span>
+                            </li>
+                            <li>
+                                <img src="assets/img/anim8.jpg" alt="anim">
+                                <div>
+                                    <h1>coders.paradise</h1>
+                                    <h2 class="subtitle">New To Instagram</h2>
+                                </div>
+                                <span>Follow</span>
+                            </li>
+                            <li>
+                                <img src="assets/img/anim4.jpg" alt="safari">
+                                <div>
+                                    <h1>christiano.CR7</h1>
+                                    <h2 class="subtitle">Follows you</h2>
+                                </div>
+                                <span>Follow</span>
+                            </li>
+                            <li>
+                                <img src="assets/img/code3.jpg" alt="singer">
+                                <div>
+                                    <h1>rose.muhando</h1>
+                                    <h2 class="subtitle">Follows you</h2>
+                                </div>
+                                <span>Follow</span>
+                            </li>
+                            <li>
+                                <img src="assets/img/code.jpg" alt="singer">
+                                <div>
+                                    <h1>paul.pogba</h1>
+                                    <h2 class="subtitle">Follows you</h2>
+                                </div>
+                                <span>Follow</span>
+                            </li>
+                            <li>
+                                <img src="assets/img/code2.jpg" alt="singer">
+                                <div>
+                                    <h1>kali.linux</h1>
+                                    <h2 class="subtitle">Follows you</h2>
+                                </div>
+                                <span>Follow</span>
+                            </li>
+                            <li>
+                                <img src="assets/img/code3.jpg" alt="singer">
+                                <div>
+                                    <h1>mkuru_genzi</h1>
+                                    <h2 class="subtitle">Follows you</h2>
+                                </div>
+                                <span>Follow</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav">
+                        About .
+                        Help .
+                        Press .
+                        API .
+                        Jobs .
+                        Privacy .
+                        Terms .
+                        Locations .
+                        Language .
+                        Meta Verified .
+                    </div>
+                    <div class="nav">
+                        © 2023 INSTAGRAM FROM META
+                    </div>
+                </div>
+            </aside>
+    
+        </main>
+    
+        <!-- <footer>
+            <ion-icon name="home"></ion-icon>
+            <ion-icon name="search-outline"></ion-icon>
+            <ion-icon name="add-circle-outline"></ion-icon>
+            <ion-icon name="heart-outline"></ion-icon>
+            <ion-icon name="person-outline"></ion-icon>
+        </footer> -->
+    
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    </body>
+    </html>
+    
+
+    
+    
+</body>
+</html>
